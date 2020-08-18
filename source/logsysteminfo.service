@@ -1,0 +1,8 @@
+[Unit]
+Description=Systemd service for logging system info at startup
+
+[Service]
+ExecStart=/usr/local/bin/testscript.sh /var/log/testlog.txt
+
+[Install]
+WantedBy=default.target
