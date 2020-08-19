@@ -2,7 +2,7 @@
 Description=Systemd service for logging system info at startup
 
 [Service]
-ExecStart=/usr/local/bin/testscript.sh /var/log/testlog.txt
+ExecStart=/usr/local/bin/testscript.sh
 
 [Install]
 WantedBy=default.target
